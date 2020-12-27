@@ -103,6 +103,11 @@ a.reserva {
     float: right;
 }
 
+a.reserva:hover {
+    background: #FFF5B0;
+    color: #A29750;;
+}
+
 /*Menu vertical*/
 #menu {
     margin-top: 15px;
