@@ -160,6 +160,8 @@ ul#navegacao a:hover {
 
 }
 
+
+
 .conteudo {
     margin: 0 auto;
     width: 90%;
@@ -167,4 +169,53 @@ ul#navegacao a:hover {
 
 #rodape {
     clear: both;
+
+    padding: 16px;
+
+    background: #FFF url(../img/bg-rodape.png) top repeat-x;
+
+    color: #7D7640;
+}
+
+/* Formatação de textos */
+h2 {
+    color: #7D7640;
+    font-size: 1.1em;
+
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Formatações da área lateral */
+ul#beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #F3EFCB;
+    height: 6em;
+}
+
+ul#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#beneficios li a h3 {
+    background: url(../img/ornamento.png) no-repeat center right;
+    font-size: 1em;
+    color: #615B2d;
+    padding: 5px 0;
+
+}
+
+#beneficios li:hover {
+    background: #F6F3D6;
+    cursor: pointer;
 }
