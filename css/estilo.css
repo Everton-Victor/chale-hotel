@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    background: #EDE9CC;
+    background: #EDE9CC url(../img/bg-container.png)  top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -137,4 +137,34 @@ ul#navegacao a {
 
 ul#navegacao a:hover {
     background: #FDF6BE;
+}
+
+/* Área de conteúdos */
+#area-principal {
+    width: 50%;
+    float: left;
+
+    background: url(../img/bg-area-principal.png) top left repeat-x;
+
+    padding: 15px 0px;
+
+}
+
+#area-lateral {
+    width: 50%;
+    float: right;
+
+    background: url(../img/bg-area-lateral.png) top left repeat-x;
+
+    padding: 20px 0px;
+
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
 }
